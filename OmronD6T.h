@@ -1,3 +1,6 @@
+// Arduion Library for Omron D6T
+// 2019/1/16: akita11 (akita@ifdl.jp)
+
 #ifndef OmronD6T_h
 #define OmronD6T_h
 #include <Wire.h>
