@@ -1,4 +1,5 @@
-// ToDo: license
+// Arduion Library for Omron D6T
+// 2019/1/16: akita11 (akita@ifdl.jp)
 // ATmega-based Arduino & ESP32-based Arduino
 // Note: D6T's I2C clock maximum freq. = 100kHz
 
