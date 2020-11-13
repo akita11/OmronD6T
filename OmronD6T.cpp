@@ -53,7 +53,7 @@ void OmronD6T::scanTemp() {
     for (int x = 0; x < 4; x++) {
       i = x + (y * 4);
       value = buf[(i * 2 + 2)] + (buf[(i * 2 + 3)] << 8);
-      temp[y][x] = value * 0.1;
+      temp[x][y] = value * 0.1;
     }
   }
 }
